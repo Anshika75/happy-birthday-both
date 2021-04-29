@@ -1,0 +1,2519 @@
+<!DOCTYPE html>
+<!---PLEASE READ THIS-->
+<!--PLEASE WATCH TILL END IT IS A 2 MIN CODE -->
+
+
+
+<html>
+    <head>
+        <title>Page Title</title>
+<meta name="viewport" content="width=device=width, initial-scale=1.0">  
+        
+          <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Ruslan Display' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>          
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Berkshire Swash"> 
+  <link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>               
+          
+           <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </head>
+    <body>    
+    <script>
+        window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play() { document.getElementById("a").play();
+}
+    </script>
+    <style>
+        body {
+  margin:0;
+  padding:0;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXsQYSDFpnRJlADb01bOiwPThg_46RJKzW8A&usqp=CAU");
+  
+  background-size: 100% 100%;
+  overflow: hidden;
+  background-repeat:no-repeat ;
+  height:100vh;
+  max-height:100vh;
+}
+
+
+.b{
+  
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKsm5RHOOyt1-0A3lkIZ7TSO9VdXHNAf0PUg&usqp=CAU");
+  height:100vh;
+  width:50%;
+  background-size: 100% 100%;
+  position:fixed;
+  top:0;
+  left:0;
+  animation: slideleft 5s both;
+  animation-delay:17s;
+  opacity:1;
+  
+}
+
+
+.d{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlJQH1630hSVUo6H3LEiT9tmnwe_5Wr8_xFA&usqp=CAU");
+  height:100vh;
+  width:50vw; 
+  background-size: 100% 100%;
+  position:fixed;
+  top:0;
+  left:50vw;
+  animation: slideright 5s both;
+  animation-delay:17s;
+  opacity:1;
+  
+  
+}
+
+@keyframes slideright {
+0% {
+  left:0;
+  opacity:1;
+}
+100% {
+  left:-50vw;
+  opacity:0;
+}
+
+}
+
+
+@keyframes slideleft {
+0% {
+  left:50vw;
+  opacity:1;}
+100% {
+  left:100vw;
+  opacity:0;}
+  }
+
+.rib1{
+  position:absolute;
+  height:10vh;
+  top:45vh;
+  width:50vw;
+  background-color: #6b0f1a;
+background-color: #f7b42c;
+background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+/*animation: slideleft 5s both;
+  animation-delay:15s;
+opacity:1;*/
+}
+
+.rib2{
+  position:absolute;
+  height:10vh;
+  top:45vh;
+  width:50vw;
+  left:0vw;
+  background-color: #6b0f1a;
+background-color: #f7b42c;
+background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+/*animation: slideright 5s both;
+  animation-delay:15s;
+ opacity:1;*/
+}
+.subrib1{
+  position:absolute;
+  height:6vh;
+  top:2vh;
+  width:50vw;
+  background-color: #6b0f1a;
+background-color: #6b0f1a;
+background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+
+
+
+}
+
+.subrib2{
+  position:absolute;
+  height:2vh;
+  top:2vh;
+  width:50vw;
+  background-color: #6b0f1a;
+background-color: #6b0f1a;
+background-color: #abe9cd;
+background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+
+
+
+
+}
+
+.balloon1{
+  position:absolute;
+  left:0vmin;
+  top:20vmin;
+  transform:rotate(-10deg);
+}
+
+
+.bl11{
+  position:absolute;
+  border-radius:50%;
+  height:30vmin;
+  width:20vmin;
+background-color: #abe9cd;
+background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+
+  
+}
+
+
+.bl12{
+  position:absolute; 
+  left:2vmin; 
+  top:8vmin;
+  width:15vmin; 
+  height:20vmin; 
+  border-radius: 50%; 
+  background:transparent; 
+  transform: rotateY(10deg); 
+  box-shadow: 2px 2px 0 0 #ffffff;
+}
+
+
+.rope1{
+  position:absolute;
+  top:30vmin;
+  left:26vmin;
+  height:50vmin;
+  width:1vmin;
+background:repeating-linear-gradient(90deg,black,white 1px, #000000 2px); 
+  transform:rotate(-20deg);
+
+}
+
+.top1{
+   position:absolute;
+   top:10vmin;
+   left:10vmin;
+}
+
+
+.ball1{
+  position:absolute;
+  border-radius:50%;
+  height:10vmin;
+  width:10vmin;
+background-color: #abe9cd;
+  top:25vmin;
+  left:5.5vmin;
+}
+
+
+.balloon2{
+  position:absolute;
+  left:23vmin;
+  top:2vmin;
+  transform:rotate(0deg);
+}
+
+
+.bl21{
+  position:absolute;
+  border-radius:50%;
+  height:30vmin;
+  width:20vmin;
+background-color: #abe9cd;
+background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+
+  
+}
+
+
+.bl22{
+  position:absolute; 
+  left:2vmin; 
+  top:8vmin;
+  width:15vmin; 
+  height:20vmin; 
+  border-radius: 50%; 
+  background:transparent; 
+  transform: rotateY(10deg); 
+  box-shadow: 2px 2px 0 0 #ffffff;
+}
+
+
+.rope2{
+  position:absolute;
+  top:30vmin;
+  left:20vmin;
+  height:60vmin;
+  width:1vmin;
+background:repeating-linear-gradient(90deg,black,white 1px, #000000 2px); 
+
+}
+
+.top2{
+   position:absolute;
+   top:10vmin;
+   left:10vmin;
+}
+
+
+.ball2{
+  position:absolute;
+  border-radius:50%;
+  height:10vmin;
+  width:10vmin;
+background-color: #abe9cd;
+  top:25vmin;
+  left:5.5vmin;
+}
+
+.balloon3{
+  position:absolute;
+  left:54vmin;
+  top:8vmin;
+  transform:rotate(20deg);
+}
+
+
+.bl31{
+  position:absolute;
+  border-radius:50%;
+  height:30vmin;
+  width:20vmin;
+background-color: #abe9cd;
+background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+
+  
+}
+
+
+.bl32{
+  position:absolute; 
+  left:2vmin; 
+  top:8vmin;
+  width:15vmin; 
+  height:20vmin; 
+  border-radius: 50%; 
+  background:transparent; 
+  transform: rotateY(10deg); 
+  box-shadow: 2px 2px 0 0 #ffffff;
+}
+
+
+.rope3{
+  position:absolute;
+  top:30vmin;
+  left:18vmin;
+  height:55vmin;
+  width:1vmin;
+background:repeating-linear-gradient(90deg,black,white 1px, #000000 2px); 
+  transform:rotate(10deg);
+
+}
+
+.top3{
+   position:absolute;
+   top:10vmin;
+   left:10vmin;
+}
+
+
+.ball3{
+  position:absolute;
+  border-radius:50%;
+  height:10vmin;
+  width:10vmin;
+background-color: #abe9cd;
+  top:25vmin;
+  left:5.5vmin;
+}
+
+.bottomball{
+  position:absolute;
+  border-radius:50%;
+  height:6vmin;
+  width:6vmin;
+background-color:#ff66cc;
+
+  top:80vmin;
+  left:40vmin;
+}
+
+
+.balloons{
+  position:absolute;
+  transform:scale(0.7);
+  left:-5vmin;
+}
+
+
+.balloonp1{
+  position:absolute;
+  left:0vmin;
+  top:20vmin;
+  transform:rotate(-10deg);
+}
+
+
+.blp11{
+  position:absolute;
+  border-radius:50%;
+  height:30vmin;
+  width:20vmin;
+background-color: #c7e9fb;
+background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+
+  
+}
+
+
+.blp12{
+  position:absolute; 
+  left:2vmin; 
+  top:8vmin;
+  width:15vmin; 
+  height:20vmin; 
+  border-radius: 50%; 
+  background:transparent; 
+  transform: rotateY(10deg); 
+  box-shadow: 2px 2px 0 0 #ffffff;
+}
+
+
+.ropep1{
+  position:absolute;
+  top:30vmin;
+  left:26vmin;
+  height:50vmin;
+  width:1vmin;
+background:repeating-linear-gradient(90deg,black,white 1px, #000000 2px); 
+  transform:rotate(-20deg);
+
+}
+
+.topp1{
+   position:absolute;
+   top:10vmin;
+   left:10vmin;
+}
+
+
+.ballp1{
+  position:absolute;
+  border-radius:50%;
+  height:10vmin;
+  width:10vmin;
+background-color: #ff66cc;
+  top:25vmin;
+  left:5.5vmin;
+}
+
+
+.balloonp2{
+  position:absolute;
+  left:23vmin;
+  top:2vmin;
+  transform:rotate(0deg);
+}
+
+
+.blp21{
+  position:absolute;
+  border-radius:50%;
+  height:30vmin;
+  width:20vmin;
+background-color: #c7e9fb;
+background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+
+
+  
+}
+
+
+.blp22{
+  position:absolute; 
+  left:2vmin; 
+  top:8vmin;
+  width:15vmin; 
+  height:20vmin; 
+  border-radius: 50%; 
+  background:transparent; 
+  transform: rotateY(10deg); 
+  box-shadow: 2px 2px 0 0 #ffffff;
+}
+
+
+.ropep2{
+  position:absolute;
+  top:30vmin;
+  left:20vmin;
+  height:60vmin;
+  width:1vmin;
+background:repeating-linear-gradient(90deg,black,white 1px, #000000 2px); 
+
+}
+
+.topp2{
+   position:absolute;
+   top:10vmin;
+   left:10vmin;
+}
+
+
+.ballp2{
+  position:absolute;
+  border-radius:50%;
+  height:10vmin;
+  width:10vmin;
+background-color: #ff66cc;
+  top:25vmin;
+  left:5.5vmin;
+}
+
+.balloonp3{
+  position:absolute;
+  left:54vmin;
+  top:8vmin;
+  transform:rotate(20deg);
+}
+
+
+.blp31{
+  position:absolute;
+  border-radius:50%;
+  height:30vmin;
+  width:20vmin;
+background-color: #c7e9fb;
+background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+
+
+  
+}
+
+
+.blp32{
+  position:absolute; 
+  left:2vmin; 
+  top:8vmin;
+  width:15vmin; 
+  height:20vmin; 
+  border-radius: 50%; 
+  background:transparent; 
+  transform: rotateY(10deg); 
+  box-shadow: 2px 2px 0 0 #ffffff;
+}
+
+
+.ropep3{
+  position:absolute;
+  top:30vmin;
+  left:18vmin;
+  height:55vmin;
+  width:1vmin;
+background:repeating-linear-gradient(90deg,black,white 1px, #000000 2px); 
+  transform:rotate(10deg);
+
+}
+
+.topp3{
+   position:absolute;
+   top:10vmin;
+   left:10vmin;
+}
+
+
+.ballp3{
+  position:absolute;
+  border-radius:50%;
+  height:10vmin;
+  width:10vmin;
+background-color:#ff66cc;
+  top:25vmin;
+  left:5.5vmin;
+}
+
+.bottomballp{
+  position:absolute;
+  border-radius:50%;
+  height:6vmin;
+  width:6vmin;
+background-color:#abe9cd;
+
+  top:80vmin;
+  left:40vmin;
+}
+
+.balloonsp{
+  position:absolute;
+  transform:scale(0.7);
+  top:52vh;
+  left:-5vmin;
+}
+
+
+.cardhappy1{
+  position:absolute;
+  top:0vh;
+  left:0vw;
+  animation: exits 3s 13s both;
+
+}
+
+
+.cardtexthappy1{
+  height:60vmin;
+  width:40vmin;
+  position:absolute;
+  top:5vh;
+  left:5vw;
+  overflow:hidden;
+ background-size: 100% 100%; background-image:url("https://media1.tenor.com/images/628de5c6e7feafebc6e40411b83358e5/tenor.gif?itemid=17123148");
+  box-shadow:-0.20rem  0.50rem 2.65rem rgba(0,0,0,0.6);
+  animation: split 3s ease-out 5s both;
+
+}
+
+.jelly1{
+  color: #FFFFFF;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  font-family: 'Alfa Slab One';
+  font-size:28px;
+  padding:5vmin;
+  padding-left:1vmin;
+  animation: jelly 3s 8s both;
+
+  
+}
+.cardhappy{
+  position:absolute;
+  top:0;
+  left:0;
+  animation: exits 3s 13s both;
+
+}
+
+
+.cardtexthappy{
+  height:60vmin;
+  width:40vmin;
+  position:absolute;
+  left:55vw;
+  top:60vh;
+  overflow:hidden;
+ background-size: 100% 100%; background-image:url("https://i.pinimg.com/originals/df/65/8f/df658f7de891c3fc7e835d487d402028.gif");
+  box-shadow:-0.20rem  0.50rem 2.65rem rgba(0,0,0,0.6);
+  animation: split 3s ease-out 5s both;
+
+}
+
+.jelly{
+  color: #FFFFFF;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  font-family: 'Alfa Slab One';
+  font-size: 32px;
+  padding:5vmin;
+ 
+  animation: jelly 3s 8s both;
+
+  
+}
+
+@keyframes split {
+0% {
+  transform: translateZ(-800px) rotateY(90deg);
+  opacity: 0;
+}
+54% {
+  transform: translateZ(-160px) rotateY(87deg);
+  opacity: 1;
+}
+100% {
+  transform: translateZ(0) rotateY(0);
+}
+}
+
+
+@keyframes jelly {
+0% {
+  transform: rotateX(-100deg);
+  transform-origin: top;
+  opacity: 0;
+}
+100% {
+  transform: rotateX(0deg);
+  transform-origin: top;
+  opacity: 1;
+}
+}
+
+
+@keyframes exits {
+0% {
+  transform: rotateX(0);
+  opacity: 1;
+}
+100% {
+  transform: rotateX(70deg);
+  opacity: 0;
+}
+}
+
+.balloons, .balloonsp{
+  animation:balloons 3s 5s both
+}
+
+
+@keyframes balloons{
+   0%{
+   transform:translateY(-1000px), scale(0.7);
+   opacity:0}
+   100%{
+   transform:translateY(0), scale(0.7);
+   opacity:1}
+}
+
+
+*{margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+.layer1{
+  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  height:100vh;
+width:100vw;
+ opacity:0;
+ animation: right 8s 40s both;
+}
+
+.layer2{
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  position:absolute;
+  top:0vmin;
+  height:100vh;
+  width:90vw;
+  border-radius:0% 100% 100% 0% / 0% 50% 50% 0% ;
+  border: 5px dotted #1C6EA4;
+  overflow:hidden;
+  animation: left 8s 60s both;
+opacity:0;
+  
+}
+
+.layer3{
+  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+  position:absolute;
+  top:50vmin;
+  left:52vmin;
+  height:45vmin;
+  width:45vmin;
+  border-radius:50%;
+  border: 5px dotted #1C6EA4;
+  animation: rotate 8s ease-out 80s both;
+  opacity:0;
+
+}
+
+
+.layer4{
+background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+  position:absolute;
+  top:85vmin;
+  left:60vmin;
+  height:35vmin;
+  width:35vmin;
+  border-radius:50%;
+  border: 5px dotted #1C6EA4;
+    animation: rotate 8s ease-out 83s both ;
+ opacity:0;
+ z-index:10;
+}
+
+
+.layer5{
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); 
+  position:absolute;
+  top:2vmin;
+  left:80vmin;
+  height:15vmin;
+  width:15vmin;
+  border-radius:50%;
+  border:5px double #e0218a;
+}
+
+
+.layer6{
+  background-color: #ff028d;
+  position:absolute;
+  top:2vmin;
+  left:50vmin;
+  height:5vmin;
+  width:5vmin;
+  border-radius:50%;
+  border:5px double #16d9e3;
+}
+.layer7{
+  background-color:#ff2feb;
+  position:absolute;
+  top:32vmin;
+  left:80vmin;
+  height:5vmin;
+  width:5vmin;
+  border-radius:50%;
+  border:5px double #30c7ec;
+}
+.layer8{
+  background-color: #ff1476;
+  position:absolute;
+  top:62vmin;
+  left:90vmin;
+  height:5vmin;
+  width:5vmin;
+  border-radius:50%;
+  border:5px double #46aef7;
+}
+
+.layer9{
+  background-color: #ff1476;
+  position:absolute;
+  top:102vmin;
+  left:90vmin;
+  height:5vmin;
+  width:5vmin;
+  border-radius:50%;
+  border:5px double #46aef7;
+}
+
+.layer10{
+  background-color: #ff2feb;
+  position:absolute;
+  top:132vmin;
+  left:80vmin;
+  height:5vmin;
+  width:5vmin;
+  border-radius:50%;
+  border:5px double #30c7ec;
+}
+.layer11{
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); 
+  position:absolute;
+  top:89vh;
+  left:77vmin;
+  height:15vmin;
+  width:15vmin;
+  border-radius:50%;
+  border:5px double #e0218a;
+}
+.layer12{
+  background-color: #ff028d;
+  position:absolute;
+  top:95vh;
+  left:43vmin;
+  height:5vmin;
+  width:5vmin;
+  border-radius:50%;
+  border:5px double #30c7ec;
+}
+
+
+
+.mainbowl1{
+  position:absolute; 
+  left:20vmin; 
+  top:100vmin;
+  width:60vmin; 
+  height:20vmin; 
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  background-color:#00CED1;
+}
+
+.mainbowl2{
+  position:absolute; 
+  left:25vmin; 
+  top:100vmin;
+  width:50vmin; 
+  height:20vmin; 
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  background-color: #00FFFF;
+}
+
+
+
+.mainbowl3{
+  position:absolute; 
+  left:30vmin; 
+  top:100vmin;
+  width:50vmin; 
+  height:20vmin; 
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  background-color: #00CED1;
+}
+
+.bowlstem{
+  position:absolute;
+  left:46vmin;
+  top:100vmin;
+  border-bottom: 120px solid #00CED1; border-left: 30px solid transparent; border-right: 30px solid transparent;
+  height:100px;
+  width:20px;
+  border-radius:10%;
+}
+
+
+.circle1, .circle2, .circle3, .circle4, .circle5,.circle6,  .circle7, .circle8, .circle9, .circle10{
+  position:absolute;
+  height:5vmin;
+  width:5vmin;
+  border-radius:50%;
+  background-color: #B0C4DE;
+  top:98vmin;
+  box-shadow: inset 5px 5px 1px -2px #A9A9A9;
+  
+}
+.circle1{
+  
+  left:20vmin;
+}
+.circle2{
+  
+  left:26vmin;
+}
+.circle3{
+  
+  left:32vmin;
+}
+.circle4{
+  
+  left:38vmin;
+}
+.circle5{
+  
+  left:44vmin;
+}
+
+.circle6{
+  
+  left:50vmin;
+}
+
+.circle7{
+  
+  left:56vmin;
+}
+.circle8{
+  
+  left:62vmin;
+}
+.circle9{
+  
+  left:68vmin;
+}
+.circle10{
+  
+  left:74vmin;
+}
+
+
+
+
+.eyec1{
+  left:30vmin;
+  
+}
+.eyec2{
+  left:60vmin;
+  
+}
+
+.eyeballc1{
+  left:32vmin;
+  
+}
+.eyeballc2{
+  left:62vmin;
+  
+}
+
+
+
+.blush1, .blush2{
+  position:absolute;
+  border-radius:50%;
+  height:5vmin;
+  width:10vmin;
+  background-color:pink;
+  top:89vmin;
+}
+
+.blush1{
+  left:30vmin;
+  
+}
+.blush2{
+  left:60vmin;
+  
+}
+
+.rect{
+  position:absolute;
+  border-radius: 40px 40px 40px 40px;
+  top:65vmin;
+  left:20vmin;
+  height:5vmin;
+  width:60vmin;
+  background-color:hotpink;
+}
+
+
+.sc1, .sc2, .sc3, .sc4, .sc5{
+  position:absolute;
+  top:69vmin;
+  height:5vmin;
+  width:12vmin;
+  border-radius: 0px 0px 39px 39px;
+  background-color:hotpink;
+}
+
+.sc1{
+  left:21vmin;
+}
+
+.sc2{
+  left:33vmin;
+}
+.sc3{
+  left:45vmin;
+}
+.sc4{
+  left:57vmin;
+}
+.sc5{
+  left:69vmin;
+  width:10vmin;
+}
+
+.candle1{
+   position:absolute;
+  border: 1px solid #1092BE;
+border-radius: 0px 0px 0px 0px;
+height:25vmin;
+width:7vmin;
+top:50vmin;
+left:45vmin;
+background:repeating-linear-gradient(45deg,azure,cyan 10px, #008be8 10px, #07cae8 20px);
+
+}
+
+.flame{
+  position:absolute;
+  border: 2px solid #FFD700;
+border-radius: 60px 10px 50px 15px; 
+width:10vmin;
+height:12vmin;
+top:37vmin;
+left:45vmin;
+transform:rotateY(45deg);
+-webkit-box-shadow: 4px -4px 1px 0px #FF1F1F, 2px -4px 3px 0px #FF9376, 2px -5px 7px 0px #FFE264; 
+background:repeating-linear-gradient(45deg,yellow,orange 10px, #ffcb05 10px, #FFA500 20px);
+    
+}
+.eyec1, .eyec2{
+  position:absolute;
+  border-radius:50%;
+  height:10vmin;
+  width:10vmin;
+  background-color:black;
+  top:77vmin;
+}
+
+.eyeballc1, .eyeballc2{
+  position:absolute;
+  border-radius:50%;
+  height:5vmin;
+  width:5vmin;
+  background-color:white;
+  top:78vmin;
+}
+
+/*》》》》》ANIMATION CLASSES《《《《《《*/
+.icebowl{
+  position:absolute;
+ /* top:45vmin;
+  left:62vmin;
+  transform:scale(0.3);*/
+  animation: slide 3s both;
+animation-delay:83s;
+
+}
+.cake{
+  position:absolute;
+  
+}
+
+.base{
+  position:absolute;
+  top:66vmin;
+  left:21vmin;
+  height:35vmin;
+  width:56vmin;
+  background-color:#D2691E;
+  border: 3px solid #CD853F;
+border-radius: 0px 0px 39px 39px;
+animation: slide 3s both;
+animation-delay:83s;
+}
+
+.eyec{
+  position:absolute;
+  
+  animation: blinks 1.5s infinite both;
+opacity:0;
+animation-delay:94s;   
+}
+
+
+.nosec{
+  position:absolute;
+  top:84vmin;
+  left:47vmin;
+  height:6vmin;
+  width:5vmin;
+  background-color:transparent;
+  border: 5px solid brown;
+border-radius: 0px 0px 39px 39px;
+border-top-color:transparent;
+
+  animation: fade 6s both;
+animation-delay:94s;
+opacity:0;
+}
+
+.blush{
+  position:absolute;
+  animation: fade 6s both;
+animation-delay:94s;
+opacity:0;
+}
+
+
+.toplayer{
+  position:absolute;
+  animation: slide 3s both;
+animation-delay:90s;
+  }
+
+.candlefull{
+  position:absolute;
+  animation: slide 3s both;
+animation-delay:94s;
+}
+
+.cakem{
+  transform:scale(0.3);
+  position:absolute;
+  top:-5vmin;
+  left:9vmin;
+}
+
+@keyframes slide {
+0% {
+  transform: translateY(-1000px);
+  opacity: 0;
+}
+100% {
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+
+
+
+
+@keyframes blinks {
+0% {
+  opacity: 0;
+}
+
+0.1% { 
+  opacity: 0;
+}
+
+50% {
+  opacity: 0.2;
+}
+100% {
+  opacity: 1;
+}
+}
+
+@keyframes fade {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
+.icem{
+  position:absolute;
+  top:45vmin;
+  left:62vmin;
+  transform:scale(0.3);
+}
+
+
+
+@keyframes left {
+0% {
+  transform: translateX(-1000px);
+  opacity: 0;
+}
+100% {
+  transform: translateX(0);
+  opacity: 1;
+}
+}
+
+
+@keyframes rotate {
+0% {
+  transform: rotate(-540deg) scale(0);
+  opacity: 0;
+}
+100% {
+  transform: rotate(0) scale(1);
+  opacity: 1;
+}
+}
+
+.mouth1{
+  position:absolute;
+  height:40vmin;
+  width:40vmin;
+  background-color:rgb(252,142,172);
+  
+  border-radius:49% 51% 50% 50% / 43% 42% 45% 42% ;
+}
+
+.mouth2{
+  position:absolute;
+  height:36vmin;
+  width:36vmin;
+  background-color:rgb(255,193,204);
+  left:2vmin;
+  top:1vmin;
+  border-radius:49% 51% 50% 50% / 43% 42% 45% 42% ;
+}
+
+.earl1, .earr1{
+  position:absolute;
+  border-radius:50%;
+  height:20vmin;
+  width:20vmin;
+  background-color:rgb(252,142,172);
+}
+
+.earl2, .earr2{
+  position:absolute;
+  border-radius:50%;
+  height:18vmin;
+  width:18vmin;
+  background-color:rgb(255,193,204);
+}
+.earl3, .earr3{
+  position:absolute;
+  border-radius:50%;
+  height:15vmin;
+  width:15vmin;
+  background-color:rgb(222,93,131);
+}
+
+.earl4, .earr4{
+  position:absolute;
+  border-radius:50%;
+  height:14vmin;
+  width:14vmin;
+  background-color: #f36196;
+}
+.ear1{
+  position:absolute;
+  transform:rotate(180deg);
+  top:20vmin;
+  left:10vmin;
+}
+
+.ear2{
+  position:absolute;
+   transform:rotate(270deg);
+   top:20vmin;
+   left:30vmin;
+}
+
+.eye1, .eye2{
+  position:absolute;
+  transform:scale(0.3);
+}
+
+.eyel1, .eyer1{
+  position:absolute;
+  border-radius:50%;
+  height:30vmin;
+  width:15vmin;
+  background-color:black;
+}
+
+.eyelball1, .eyerball1{
+  position:absolute;
+  border-radius:50%;
+  height:7vmin;
+  width:7vmin;
+  background-color:white;
+  left:4vmin;
+  top:3vmin;
+  opacity:0.9;
+}
+.eyelball2, .eyerball2{
+  position:absolute;
+  border-radius:50%;
+  height:5vmin;
+  width:5vmin;
+  background-color:snow;
+  left:3vmin;
+  top:12vmin;
+  opacity:0.9;
+}
+
+.eyellash1, .eyerlash1{
+  position:absolute;
+  width:2vmin;
+  height:8vmin;
+  background-color:black;
+  transform:rotate(-45deg);
+  top:3vmin;
+}
+.eyellash2, .eyerlash2{
+  position:absolute;
+  width:2vmin;
+  height:8vmin;
+  background-color:black;
+  transform:rotate(-45deg);
+  top:-3vmin;
+}
+
+
+.nose{
+  position:absolute;
+  border-radius:49% 51% 50% 50% / 21% 21% 79% 79% ;
+  height:15vmin;
+  width:20vmin;
+  background:black;
+  top:25vmin;
+  left:-20vmin;
+}
+
+.nosewhite{
+  position:absolute;
+  border-radius:50%;
+  height:5vmin;
+  width:13vmin;
+  background-color:white;
+  top:27vmin;
+  left:-17vmin;
+}
+.oval1{
+  position:absolute;
+  border-radius:50%;
+  height:45vmin;
+  width:72vmin;
+  background-color:rgb(222,93,131);
+  top:30vmin;
+  left:-45vmin;
+}
+
+.oval2{
+  position:absolute;
+  border-radius:50%;
+  height:43vmin;
+  width:63vmin;
+  background-color: #f36196;
+  top:30vmin;
+  left:-41vmin;
+}
+
+.noseline{position:absolute;
+  width:2vmin;
+  height:17vmin;
+  background-color:black;
+  top:37vmin;
+  left:-12vmin;
+}
+
+.sn1, .sn2{
+  position:absolute ; 
+  width:8vmin; 
+  height:5vmin; 
+  border:2vmin solid black;
+  border-top-color:transparent;
+  border-bottom-left-radius: 160vmin;
+   border-bottom-right-radius: 160vmin;
+    background:transparent;
+}
+.sn1{
+  top:48vmin;
+  left:-22vmin;
+}
+.sn2{
+  top:48vmin;
+  left:-12vmin;
+}
+
+.smile{
+ position:absolute ; 
+  width:18vmin; 
+  height:10vmin; 
+  border-bottom-left-radius: 160vmin;
+   border-bottom-right-radius: 160vmin;
+    background: #C6011F;
+    top:55vmin;
+    left:-20vmin;
+}
+
+.body1{
+  position:absolute;
+  border-radius:50%;
+  width:45vmin;
+  height:45vmin;
+  background-color:pink;
+  top:25vmin;
+  left:-2.5vmin;
+}
+.body2{
+  position:absolute;
+  border-radius:50%;
+  width:40vmin;
+  height:40vmin;
+  background-color:rgb(252,142,172);
+  top:30vmin;
+  left:0vmin;
+}
+
+
+
+.hand1, .hand2{
+  position:absolute;
+}
+
+.handl1, .handr1{
+  position:absolute;
+  border-radius:40%;
+  height:20vmin;
+  width:10vmin;
+background-color:rgb(222,93,131);
+}
+
+.handl2, .handr2{
+  position:absolute;
+  border-radius:40%;
+  height:19vmin;
+  width:9vmin;
+  background-color: #f36196;
+  
+}
+
+.hand1{
+  top:32vmin;
+  left:7vmin;
+  transform:rotate(60deg);
+}
+
+
+.hand2{
+  top:42vmin;
+  left:27vmin;
+  transform:rotate(-60deg);
+}
+
+.foot1, .foot2{
+  position:absolute;
+
+}
+
+.footl1, .footr1{
+  position:absolute;
+  border-radius:50%;
+background-color:rgb(222,93,131);
+  height:20vmin;
+  width:20vmin;
+  
+}
+
+.footl2, .footr2{
+  position:absolute;
+  border-radius:50%;
+ background-color: #f36196;
+  height:18vmin;
+  width:18vmin;
+
+  
+}
+
+.toel1, .toel2, .toel3, .toel4, .toer1, .toer2, .toer3, .toer4{
+  position:absolute;
+  border-radius:50%;
+  width:3vmin;
+  height:5vmin;
+  background-color: #ffb3de;
+}
+
+.toel1, .toer1{
+  top:7vmin;
+  left:1vmin;
+  transform:rotate(-45deg);
+}
+
+.toel2, .toer2{
+  top:3vmin;
+  left:2vmin;
+  transform:rotate(-30deg);
+}
+
+.toel3, .toer3{
+  top:1vmin;
+  left:6vmin;
+  transform:rotate(-30deg);
+}
+
+.toel4, .toer4{
+  top:1vmin;
+  left:11vmin;
+  transform:rotate(-30deg);
+}
+
+.pawl1, .pawr1{
+  position: absolute;  
+  width: 12vmin; 
+  height: 6vmin; 
+  border-top-left-radius: 160px;
+   border-top-right-radius: 160px; 
+   background: #f57070;
+   transform:rotate(-30deg);
+   top:6vmin;
+   left:3vmin;
+  background-color: #ffb3de; 
+}
+
+.pawl2, .pawr2{
+  position: absolute; 
+  width:6vmin; 
+  height:3vmin; 
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  background: #ff0000;
+    transform:rotate(-30deg);
+   top:12vmin;
+   left:5.3vmin;
+   background-color: #ffb3de;
+}
+
+
+.pawl3, .pawr3{
+  position: absolute; 
+  width:6vmin; 
+  height:3vmin; 
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  background: #ff0000;
+    transform:rotate(-30deg);
+   top:9vmin;
+   left:10.3vmin;
+   background-color: #ffb3de;
+}
+
+.foot1{
+  top:50vmin;
+  left:-5vmin;
+}
+.foot2{
+  top:47vmin;
+  left:35vmin;
+  transform:rotate(60deg);
+}
+
+
+.eye1{
+  left:12vmin;
+  top:12vmin;
+  animation: blink 7s infinite both;
+}
+
+.eye2{
+  left:22vmin;
+  top:12vmin;
+  
+}
+
+.eye2o{
+  animation: blink 7s infinite both;
+}
+
+
+
+
+@keyframes blink {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0.1;
+}
+100% {
+  opacity: 1;
+}
+}
+
+
+
+.bottom{
+
+   position: absolute;
+   width: 50vmin;
+   height:48vmin;
+   background-color: #374A5D;
+     box-shadow:-0.20rem  0.50rem 2.65rem rgba(0,0,0,0.6);
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+
+}
+
+.bottomline1{  
+ position:absolute;
+ width:10vmin;
+ height: 48vmin;
+ background:#E6E6E6;
+ left:20vmin;
+ border-radius: 5px;
+}
+
+.lid{
+  position:absolute;
+  width:54vmin;
+  height:12vmin;
+  background-color: #374A5D;
+    box-shadow:-0.20rem  0.50rem 2.65rem rgba(0,0,0,0.6);
+  border-radius: 5px;
+}
+
+.lidline1{
+  width:10vmin;
+  height:12vmin;
+  background: #E6E6E6;
+  position:absolute;
+  top: 0px;
+  left:22vmin;
+  border-radius: ;
+  
+}
+
+
+.ribbonl{
+  position:absolute;
+  transform:rotate(135deg) scale(1.5);
+  left:48vmin;
+  top:-38vmin;
+}
+
+
+
+.ribbon1{
+      left:20vmin; 
+      width:15.5vmin; 
+      height:15.5vmin; 
+      border-radius: 50%; 
+      background: #E6E6E6; 
+      position:absolute; 
+      top:30vmim;
+} 
+.ribbon2{ 
+     width:0px ; 
+     height:15vmin;
+     border-left:32px solid transparent;
+     border-right:32px solid transparent;
+     border-bottom:57px solid #E6E6E6;
+     position: absolute; 
+     top:-23vmin;
+     left:20.1vmin;
+     
+     
+     } 
+
+.ribbonr{
+  position:absolute;
+  transform:rotate(-135deg) scale(1.5);
+  left:65vmin;
+  top:21vmin;
+}
+
+.bdaygift{
+  position:absolute; 
+       
+}
+.gift{
+  position:absolute;
+     
+}
+.bottommain{
+  position:absolute;
+  top:80vmin;
+  left:25vmin;
+  
+}
+
+
+.lidmain{
+  position:absolute;
+  top:70vmin;
+  left:23vmin; 
+
+
+}
+
+
+.lidmainsub{
+  position:absolute;
+  
+
+}
+
+.heartbeat{
+  position:absolute;
+  top:20vmin;
+  left:3vmin;
+  transform:scale(0.35);
+}
+
+.teddy{
+  position:relative;
+  left:0%;
+  top:10%;
+  translate:transform(-50%, -50%);
+ transform:scale(0.4);
+ z-index:10;
+}
+
+
+@keyframes right {
+0% {
+  transform: translateX(1000px);
+  opacity: 0;
+}
+100% {
+  transform: translateX(0);
+  opacity: 1;
+}
+}
+
+
+.layer1text{
+  position:absolute;  
+  top:1vh;
+  height:90vh;
+  width:80vw;
+  border-radius:0% 100% 100% 0% / 0% 50% 50% 0% ;    
+  padding:3vmin;
+  font-family: 'Berkshire Swash';
+  font-style: italic;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.screen3{
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+section{
+  width:100%;
+  position:absolute;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  /*place-items:center;*/
+  flex-direction:column;
+  top:3vmin;
+}
+
+section .div{
+  padding:20px;
+  border:1px solid black;
+  flex-basis:30%;
+}
+
+.flexB{
+  flex:1;
+  background-color: #eec0c6;
+background-color: #e899dc;
+background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);
+
+
+}
+
+.flexI{
+  flex:1;
+  background-color: #d19592;
+background-image: linear-gradient(315deg, #d19592 0%, #c81f70 74%);
+}
+
+.flexR{
+  flex:1;
+  background-color: #c7e9fb;
+background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+
+}
+.flexT{
+  flex:1;
+  background-color: #fc5296;
+background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+}
+
+.flexH{
+  flex:1;
+  background-color: #c7e9fb;
+background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+
+}
+
+.flexD{
+  flex:1;
+ background-color: #fc5296;
+background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+}
+
+.flexA{
+  flex:1;
+  background-color: #f6f0c4;
+background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%);
+}
+
+.flexY{
+  flex:1;
+  background-color: #d19592;
+background-image: linear-gradient(315deg, #d19592 0%, #c81f70 74%);
+}
+
+.flexB, .flexI, .flexR, .flexT, .flexH, .flexD, .flexA, .flexY {
+  padding:2vmin;
+  width:15vmin;
+  text-align:center;
+  font-family: 'Arbutus';
+  font-size:9vmin;
+  clip-path:polygon(0% 15%,15% 15%,15% 0%,85% 0%,85% 15%,100% 15%,100% 85%,85% 85%,85% 100%,15% 100%,15% 85%,0% 85%);
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+  
+}
+
+
+.ansB{
+  flex:1;
+  background-color:red;
+}
+
+.ansI{
+  flex:1;
+  background-color:yellow;
+}
+
+.ansR{
+  flex:1;
+  background-color:green;
+}
+.ansT{
+  flex:1;
+  background-color:red;
+}
+
+.ansH{
+  flex:1;
+  background-color:yellow;
+}
+
+.ansD{
+  flex:1;
+  background-color:green;
+}
+
+.ansA{
+  flex:1;
+  background-color:red;
+}
+
+.ansY{
+  flex:1;
+  background-color:yellow;
+}
+
+.ansB, .ansI, .ansR, .ansT, .ansH, .ansD, .ansA, .ansY{
+  
+  padding-right:2vmin;
+  padding-top:8vmin;
+  padding-bottom:2vmin;
+ /* width:15vmin;*/
+  height:16.5vmin;
+  text-align:left;
+  color:black;
+ font-family: 'Arbutus';
+  font-size:3vmin;
+  background-color:transparent;
+  font-style:italic;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+
+.ans{
+  position:absolute;
+  left:16vmin;
+ /* height:9vmin;*/
+ top:13vmin;
+ animation: ans 5.2s ease-in 74s 1 both;
+  opacity:0;
+}
+
+.flexe1{
+  flex:1;
+  background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+padding:2vmin;
+  width:15vmin;
+  text-align:center;
+  font-family: 'Arbutus';
+  font-size:9vmin;
+  clip-path:polygon(0% 15%,15% 15%,15% 0%,85% 0%,85% 15%,100% 15%,100% 85%,85% 85%,85% 100%,15% 100%,15% 85%,0% 85%);
+  color:transparent;
+  padding:1vmin;
+  
+}
+
+@keyframes flexz {
+0%{
+  transform: rotateX(-100deg);
+  transform-origin: top;
+  opacity: 0;
+}
+100%{
+  transform: rotateX(0deg);
+  transform-origin: top;
+  opacity: 1;
+}
+}
+
+.flexz{
+  animation: flexz 5.2s ease-in 68.5s 1 both;
+  opacity:0;
+  
+}
+@keyframes ans {
+0%{
+  transform: rotateY(100deg);
+  transform-origin: left;
+  opacity: 0;
+}
+100%{
+  transform: rotateY(0);
+  transform-origin: left;
+  opacity: 1;
+}
+}
+
+
+.text{
+       
+  position:absolute;  
+  left:15vmin;   
+  top:2vmin;         
+  width:70vmin;     
+  text-align:center;   
+  font-family: Ruslan Display;
+    
+   background-size:100%;
+  text-align:center;
+  -webkit-text-fill-color: rgba(0,200,200,0.1);
+   -webkit-background-clip:text ;
+  font-size:3rem;    background-image:url("https://i.gifer.com/B63Q.gif");
+  
+  animation: birthdaytext 5s ease-out both;
+  animation-delay:23s;
+}
+
+
+.sclayer2{
+  position:absolute; 
+  left:50%; 
+  top:50%;
+  width: 30vmin; 
+  height: 60vmin;
+  border-bottom-right-radius:160px;
+  border-top-right-radius: 160px;
+  background: #99ECE7;
+  box-shadow:0 0px 10px  #e0218a, 0 0px 20px #e0218a, 0 0 30px #e0218a;  
+  z-index:-1;
+  animation: slideleftsc 8s both;
+  animation-delay:23s;
+}
+
+.sclayer1{
+  position:absolute; 
+  left:20%; 
+  top:50%;
+  width: 30vmin; 
+  height: 60vmin;
+  border-bottom-left-radius:160px;
+  border-top-left-radius: 160px;
+  background: #EA99CB;
+  box-shadow:0 0px 10px  #00CED1, 0 0px 20px #00CED1, 0 0 30px  #00CED1; 
+  z-index:-1;
+  animation: sliderightsc 8s both;
+  animation-delay:23s;
+}
+
+.semicircle{
+  position:relative;
+  top:50%;
+  left:0%;
+  transform:scale(1.4);
+}
+.screen2 {
+  box-sizing:border-box ;
+  width:100%;
+  height:100vh;
+  overflow:hidden ;  
+  /* display: none; */
+
+}
+
+.earlayer1{
+  position:absolute;
+  border-radius:50%;
+  background-color: #99ECE7;
+  height:25vmin;
+  width:25vmin;
+  top:-15vmin;
+  left:15vmin;
+  box-shadow:0 0px 10px  #e0218a, 0 0px 20px #e0218a, 0 0 30px #e0218a;  
+  z-index:-1;
+  
+  animation: earlayer1 5s ease-out both;
+animation-delay:28s;
+
+}
+
+.earlayer2{
+  position:absolute;
+  border-radius:50%;
+  background-color:#EA99CB;
+  height:25vmin;
+  width:25vmin;
+  top:-15vmin;
+  left:60vmin;
+  box-shadow:0 0px 10px  #00CED1, 0 0px 20px #00CED1, 0 0 30px  #00CED1; 
+  z-index:-1;
+  
+  animation: earlayer2 5s ease-out both;
+animation-delay:28s;
+}
+
+.img1, .img2{
+  height:23vmin;
+width:23vmin;
+border-radius:50%;
+overflow-x:hidden;
+margin:auto;
+background:#000;
+position:absolute;
+background:rgba(0,0,0,0.5);
+}
+
+
+.sctext{
+  font-size:0.9rem;
+  position:absolute;
+  border-radius:50%;
+  background-color:red;
+  left:20%; 
+  top:50%;
+  width: 60vmin; 
+  height: 60vmin;
+  text-align:center;
+   background:rgba(0,0,0,0.2);
+box-shadow:0 0px 10px  #FFD700, 0 0px 10px #FFD700, 0 0 10px #FFD700;
+text-align:center;
+  clip-path:circle(50%);
+  box-sizing:border-box;
+  padding:9%;
+  word-wrap:break-word;
+  overflow:scroll;
+  font-family: Niconne;
+  
+  animation: sctext 8s ease-out both;
+animation-delay:31s;
+
+}
+
+@keyframes sliderightsc {
+0% {
+  left:-50vw;
+  opacity: 0;
+}
+100% {
+  left:20vw;
+  opacity: 1;
+}
+}
+
+
+@keyframes slideleftsc {
+0% {
+  left:100vw;
+  opacity: 0;
+}
+100% {
+  left:50vw;
+  opacity: 1;
+}
+}
+
+@keyframes sctext {
+0% {
+  transform: rotate(-540deg) scale(0);
+  opacity: 0;
+}
+100% {
+  transform: rotate(0) scale(1);
+  opacity: 1;
+}
+}
+
+@keyframes earlayer1 {
+0% {
+  transform: rotate(-540deg) scale(0);
+  transform-origin: 100% 100%;
+  opacity: 0;
+}
+100% {
+  transform: rotate(0) scale(1);
+  transform-origin: 100% 100%;
+  opacity: 1;
+}
+}
+
+
+@keyframes earlayer2 {
+0% {
+  transform: rotate(-540deg) scale(0);
+  transform-origin: 0 100%;
+  opacity: 0;
+}
+100% {
+  transform: rotate(0) scale(1);
+  transform-origin: 0 100%;
+  opacity: 1;
+}
+}
+
+@keyframes birthdaytext {
+0% {
+  transform: translateZ(-800px) rotateX(90deg);
+  opacity: 0;
+}
+54% {
+  transform: translateZ(-160px) rotateX(87deg);
+  opacity: 1;
+}
+100% {
+  transform: translateZ(0) rotateX(0);
+}
+}
+    </style>
+    <audio controls style=" display:none;" loop   id="a"  >
+    <source  src=" https://dl.dropbox.com/s/gyhy4o1xap6mvqu/Happy%20BirthdayIshq%20ForeverNakash%20AzizKrishna%20Chaturvedi%20%26amp%3B%20Ruhi%20Singh.mp3"> 
+   <script>
+     Swal.fire('Today Two Most Beautiful Souls Were Born. Happy birthday you Both \n A small try🧗‍♀️ to express my gratitude🤗 \n It is quite simple😕 and maybe boring😥 as I am a beginner😔  ')
+        </script>  
+      </audio>
+       <div class="b">
+           <div class="rib1">
+               <div class="subrib1">
+                   <div class="subrib2"></div>
+               </div>
+           </div>
+           
+    <main class="balloons">
+            <div class="balloon1">
+                <div class="rope1">
+                </div>
+                <div class="top1">
+                <div class="ball1"></div>
+                <div class="bl11"></div>
+                <div class="bl12"></div>
+                </div> 
+            </div>
+            
+ <div class="balloon2">
+                <div class="rope2">
+                </div>
+                <div class="top2">
+                <div class="ball2"></div>
+                <div class="bl21"></div>
+                <div class="bl22"></div>
+                </div> 
+            </div>           
+            
+   <div class="balloon3">
+                <div class="rope3">
+                </div>
+                <div class="top3">
+                <div class="ball3"></div>
+                <div class="bl31"></div>
+                <div class="bl32"></div>
+                </div> 
+            </div>         
+            <div class="bottomball"></div>
+        </main>       
+           
+        
+       </div>
+       <div class="d">
+            <div class="rib2">
+                 <div class="subrib1">
+                     <div class="subrib2"></div>
+                 </div>
+            </div>
+            
+ <main class=balloonsp>
+            <div class="balloonp1">
+                <div class="ropep1">
+                </div>
+                <div class="topp1">
+                <div class="ballp1"></div>
+                <div class="blp11"></div>
+                <div class="blp12"></div>
+                </div> 
+            </div>
+            
+ <div class="balloonp2">
+                <div class="ropep2">
+                </div>
+                <div class="topp2">
+                <div class="ballp2"></div>
+                <div class="blp21"></div>
+                <div class="blp22"></div>
+                </div> 
+            </div>           
+            
+   <div class="balloonp3">
+                <div class="ropep3">
+                </div>
+                <div class="topp3">
+                <div class="ballp3"></div>
+                <div class="blp31"></div>
+                <div class="blp32"></div>
+                </div> 
+            </div>         
+            <div class="bottomballp"></div>
+        </main>           
+            
+       </div>
+    <div class="cardhappy1">
+        <div class="cardtexthappy1">
+                 <p class="jelly1">DRAGON<br>BHAIYA</p>
+            
+             </div>
+            
+             </div>   
+      <div class="cardhappy">
+        <div class="cardtexthappy">
+                 <p class="jelly">JELLY<br>BEAN DI</p>
+            
+             </div>
+            
+             </div>          
+          
+ <main class="screen2">
+     <div class="text">Happy Birthday To Both</div>
+     <main class="semicircle">
+     
+     <div class="earlayer1">
+         <img src="https://api.sololearn.com/Uploads/Avatars/18679816.jpg" class="img1" alt="" >
+    
+     </div>
+     <div class="earlayer2">
+         <img src="https://api.sololearn.com/Uploads/Avatars/14844042.jpg" class="img2" alt="" >    
+     </div>
+     <div class="sclayer1"></div>
+     <div class="sclayer2"></div>
+     <div class="sctext">Blessings are waiting, so don't miss the flight
+Your Birth Day Gonna be very shiny bright
+Look everywhere and adore every single sight
+May your BirThDay be filled with chocolates, Cakes & Candle Light
+May the happiness hugs you like soo tight</div>
+     </main>
+     </main>            
+             
+ 
+    <main class="screen3">
+        <main class="layer1">
+        <div class="layer1text">
+            
+            
+        Nice😃 People are<br> Like Wind🌬.
+You can <br> only feel their Presence😌<br>
+And
+Sincerity😇 and you both<br> are one of them😃.<br><br>
+Flowers🥀 die,
+Stories📜 End,
+Songs🎵 Fade,
+Memories🤔 are forgotten,<br>
+All things cometo End🛑,
+But,
+“Precious People💝😑🎁” Like “You Both”
+Are always remembered😇.
+<br><br>
+There are 8✳ ways to describe you both… nice😃, friendly😄, so marvellous🤩, amazing🤗, very helpful🤝, funny🤠, kind😇, thoughtful🤔. In short, you both are just like…. me😁 ;) <br>
+    
+       
+Both of Your words🔠 creates,
+a unique🤠 impact😌..
+
+Both of You are an inspiration😌,
+for many👥..
+words🔠 that can describe🤔 you both
+aren't any😅..,<br><br>
+
+
+Sweet things🍩 are easy to Buy💰,<br> Sweet words🔠 are easy to Say🗣,<br> But sweet🍯 people like YOU<br> BOTH 🤠are very difficult🧐<br> to find, May both of  your<br> whole life😊 be as<br> Sweet🍯 as YOU<br> BOTH 😄.
+
+
+            
+        </div>
+       <div class="layer2">
+              <section>
+              <main class="flexz">
+             <div class="flexe1">A</div>
+            
+            <div class="flexB">B</div>
+            <div class="flexI">I</div>
+            <div class="flexR">R</div>
+            <div class="flexT">T</div>
+            <div class="flexH">H</div>
+            <div class="flexD">D</div>
+            <div class="flexA">A</div>
+            <div class="flexY">Y</div>
+            <div class="flexe1">A</div>
+            <div class="flexe1">A</div></main>
+        </section>
+  <section>
+  <main class="ans">
+            <div class="ansB">e Yourself</div>
+            <div class="ansI">nvite new challenges</div>
+            <div class="ansR">ecall past triumphs</div>
+            <div class="ansT">rust your instincts</div>
+            <div class="ansH">ave faith in your abilities</div>
+            <div class="ansD">esire only the best </div>
+            <div class="ansA">ffirm your strengths</div>
+            <div class="ansY">ou're got what it takes! </div>
+            </main>
+        </section>      
+        
+        
+        
+        </div>      
+      
+        
+        
+        <div class="layer5"></div>
+        <div class="layer6"></div>
+        <div class="layer7"></div>
+        <div class="layer8"></div>
+        <div class="layer9"></div>
+        <div class="layer10"></div>
+        <div class="layer11"></div>
+        <div class="layer12"></div>       
+      </main>
+      
+     
+      
+        
+         <div class="layer3">
+         <main class="cakem">
+<div class="cake">
+      <div class="candlefull">
+      <div class="candle1"></div>
+      <div class="flame"></div></div>
+          <div class="base"></div>
+            <div class="eyec">
+                <div class="eyec1"></div>
+                <div class="eyec2"></div>
+              
+      
+                <div class="eyeballc1"></div>
+                <div class="eyeballc2"></div>
+            </div>        
+        <div class="nosec"></div>    
+         <div class="blush">
+             <div class="blush1"></div>    
+             <div class="blush2"></div>    
+         </div>      
+     <div class="toplayer">
+          <div class="sc1"></div>    
+           <div class="sc2"></div> 
+          <div class="sc3"></div>      
+           <div class="sc4"></div>   
+            <div class="sc5"></div>  
+             <div class="rect"></div>       
+     </div>        
+          
+          </div>
+      </div>
+           <main class="icem">
+        <div class="icebowl">
+      <div class="bowlstem"></div>
+      <div class="mainbowl1"></div>
+      <div class="mainbowl2"></div>
+      <div class="mainbowl3"></div>
+      <div class="stem1"></div>
+       <div class="stem2"></div>
+       <div class="circle1"></div>
+       <div class="circle2"></div>
+       <div class="circle3"></div>
+       <div class="circle4"></div>
+       <div class="circle5"></div>
+       <div class="circle6"></div>
+       <div class="circle7"></div>
+       <div class="circle8"></div>
+       <div class="circle9"></div>
+       <div class="circle10"></div>
+       </main>
+       
+  </div>  
+       </main>    
+             
+             
+             
+         </div>
+          <div class="layer4">
+              <main class="teddy">
+    <div class="body1"></div>   
+      <div class="body2"></div>  
+        <main class="heartbeat">
+        <div class="bdaygift">
+      <div class="gift">
+          <div class="bottommain">
+              <div class="bottom"></div>
+              <div class="bottomline1"></div>
+             <div class="bottomline2"></div>
+          </div>
+          
+    <div class="lidmain">
+    <div class="lidmainsub">
+              <div class="lid"></div>
+              <div class="lidline1"></div>
+             <div class="lidline2"></div>
+             <div class="ribbonl">
+             <div class="ribbon1"></div>
+             <div class="ribbon2"></div>
+             </div>
+             <div class="ribbonr">
+             <div class="ribbon1"></div>
+             <div class="ribbon2"></div>
+             </div> 
+             </div>
+          </div>      
+      </div>  
+      </div>
+        </main>
+    
+        <div class="ear1">
+            <div class="earl1"></div>
+            <div class="earl2"></div>
+            <div class="earl3"></div>
+            <div class="earl4"></div>
+        </div>
+        <div class="ear2">
+            <div class="earr1"></div>
+            <div class="earr2"></div>
+            <div class="earr3"></div>
+            <div class="earr4"></div>
+        </div>
+                <div class="mouth1"></div>
+        <div class="mouth2"></div>
+    <div class="eye1">
+        <div class="eyel1"></div>
+        <div class="eyelball1"></div>
+         <div class="eyelball2"></div>
+          <div class="eyellash1"></div>
+           <div class="eyellash2"></div>
+    </div>    
+        <div class="eye2">
+        <div class="eye2o">
+        <div class="eyerlash1"></div>
+           <div class="eyerlash2"></div>
+        <div class="eyer1"></div>
+        <div class="eyerball1"></div>
+         <div class="eyerball2"></div>
+         </div>
+         <div class="oval1"></div>
+         <div class="oval2"></div>
+          <div class="nose"></div>
+          <div class="nosewhite"></div>
+          <div class="noseline"></div>
+         <div class="smile"></div>
+          <div class="sn1"></div>
+          <div class="sn2"></div>
+          
+    </div>    
+     <div class="hand1">
+         <div class="handl1"></div>
+         <div class="handl2"></div>
+     </div>
+     
+     <div class="hand2">
+         <div class="handr1"></div>
+         <div class="handr2"></div>
+     </div>
+     <div class="foot1">
+         <div class="footl1"></div>
+         <div class="footl2"></div>
+         <div class="toel1"></div>
+         <div class="toel2"></div>
+         <div class="toel3"></div>
+         <div class="toel4"></div>
+         <div class="pawl1"></div>
+         <div class="pawl2"></div>
+         <div class="pawl3"></div>
+     </div>
+     <div class="foot2">
+         <div class="footr1"></div>
+         <div class="footr2"></div>
+         <div class="toer1"></div>
+         <div class="toer2"></div>
+         <div class="toer3"></div>
+         <div class="toer4"></div>
+         <div class="pawr1"></div>
+         <div class="pawr2"></div>
+         <div class="pawr3"></div>
+     </div>
+     
+        
+    </main>
+      
+          </div>
+          
+        
+    </main>
+                
+    </body>
+</html>
